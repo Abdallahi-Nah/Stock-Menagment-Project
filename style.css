@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(70, 70, 70);
+}
+.form div .row .col{
+    width: 20%;
+}
+.form div .row .col:last-child {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form div .row .col .bg-info, .form div .row .col .bg-success {
+    padding: 5px 15px;
+    border-radius: 5px; 
+}
+.inp {
+    transition: width 0.5s ease-in-out;
+}
+.inp:hover {
+    width: 103%;
+}
